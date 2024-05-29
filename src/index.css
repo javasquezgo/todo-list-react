@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+html {
+  background-color: #1e1e1e;
+  font-family: "Inter";
+  color: #fff;
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 90%;
+  text-align: center;
+  margin-top: 66px;
+  border: 1px white solid;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.text {
+  font-size: 2.4rem;
+}
+
+div {
+  width: auto;
+}
+
+.input--div {
+  margin-top: 57px;
+}
+
+.input__div-input {
+  border: 1px white solid;
+  background-color: #1f2937;
+  height: 5.2rem;
+  width: 38.7rem;
+  border-radius: 24px;
+  padding-left: 15px;
+}
