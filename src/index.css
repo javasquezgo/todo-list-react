@@ -69,3 +69,42 @@ div {
   font-weight: bold;
   border: none;
 }
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+li {
+  width: 25.625vw;
+  min-width: 300px;
+  margin: 0 auto 3rem;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li div {
+  background-color: #111827;
+  display: flex;
+  align-items: center;
+  border: 1px white solid;
+  height: 64px;
+}
+
+li div p {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #dc143c;
+}
+
+
