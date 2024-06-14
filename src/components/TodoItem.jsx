@@ -4,7 +4,7 @@ import { RiCheckboxFill } from "@remixicon/react";
 function TodoItem({ task, state, deleteTask, handleState }) {
   return (
     <li>
-      <div>
+      <div className="complete-item">
         <i onClick={() => handleState(task)} className="icon">
           {state ? (
             <RiCheckboxFill size={40} color="#008000" />
@@ -12,11 +12,16 @@ function TodoItem({ task, state, deleteTask, handleState }) {
             <RiCheckboxBlankLine size={40} />
           )}
         </i>
-        <div>
+        <div className="item-div">
           <p>{task}</p>
-          <button className="btn-delete" onClick={() => deleteTask(task)}>
-            Eliminar
-          </button>
+          <div>
+            <button
+              className="btn-delete"
+              onClick={() => deleteTask(task, state)}
+            >
+              Eliminar
+            </button>
+          </div>
         </div>
       </div>
     </li>
